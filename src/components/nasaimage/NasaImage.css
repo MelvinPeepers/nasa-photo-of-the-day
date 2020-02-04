@@ -11,6 +11,11 @@
   justify-content: center;
 }
 
+.nasa-images-frame {
+  width: 320px;
+  height: 240px;
+}
+
 .nasa-date {
   display: flex;
   justify-content: center;

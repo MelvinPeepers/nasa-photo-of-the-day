@@ -1,10 +1,10 @@
 import React from 'react';
 
 function NasaImages(props) {
+  console.log("picture", props)
   return(
       <div className="nasa-images">
-        <iframe className="nasa-images-frame" type="text/html" width="320px" height="240px"
-        src={props.url} frameBorder="0" title="myFrame" />
+        <img src={props.url} className="nasa-images-frame" alt="NASA"></img>
       </div>
   )
 }

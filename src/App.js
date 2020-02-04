@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div>
         <NavBar />
-        <div className="nasa-images">
+        <div>
          <NasaImage />
         </div>
       </div>
