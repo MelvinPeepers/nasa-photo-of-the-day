@@ -2,8 +2,8 @@ import React from 'react';
 
 function NasaTitle(props) {
   return(
-      <div>
-<h3>{props.title}</h3>
+      <div className="nasa-image-title">
+<h3 className="nasa-image-header">{props.title}</h3>
       </div>
   )
 }

@@ -4,6 +4,7 @@ import NasaImages from "./NasaImages";
 import NasaTitle from "./NasaTitle";
 import NasaDate from "./NasaDate";
 import NasaExplan from "./NasaExplan";
+import './NasaImage.css';
 
 
 function NasaImage() {
