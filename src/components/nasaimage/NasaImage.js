@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import NasaImages from "./NasaImages";
+import NasaTitle from "./NasaTitle";
+import NasaDate from "./NasaDate";
+import NasaExplan from "./NasaExplan";
 
 
 function NasaImage() {
   const [nasaImages, setNasaImages] = useState();
-
 
   useEffect(() => {
     axios
@@ -18,7 +20,10 @@ function NasaImage() {
 
   return(
     <div className="nasa-image">
+      {nasaImages && nasaImages.title ? <><NasaTitle title={nasaImages.title}/></> : <NasaTitle />}
       {nasaImages && nasaImages.url ? <NasaImages url={nasaImages.url} /> : <NasaImages />}
+      {nasaImages && nasaImages.date ? <><NasaDate date={nasaImages.date}/></> : <NasaDate />}
+      {nasaImages && nasaImages.explanation ? <><NasaExplan explanation={nasaImages.explanation}/></> : <NasaExplan />}
     </div>
   )
 }
