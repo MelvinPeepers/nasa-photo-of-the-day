@@ -121,3 +121,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* end of reset */
+
+body,
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", "Helvetica", sans-serif;
+  background-color: #fff;
+  height: 100%;
+}
