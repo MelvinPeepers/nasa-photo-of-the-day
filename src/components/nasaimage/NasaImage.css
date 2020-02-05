@@ -49,6 +49,10 @@ Media Queries
 */
 
 @media (max-width: 768px) {
+  .nasa-title-header {
+    font-size: 2.3rem;
+  }
+
   .nasa-explan-text {
     width: 89%;
   }
@@ -64,6 +68,11 @@ Media Queries
 }
 
 @media (max-width: 320px) {
+  .nasa-title-header {
+    width: 90%;
+    margin: 20px auto;
+  }
+
   .nasa-explan-text {
     width: 84%;
   }
