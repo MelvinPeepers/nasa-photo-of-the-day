@@ -38,6 +38,28 @@
   width: 50%;
   height: 100%;
   align-self: center;
-  text-align: left;
+  text-align: center;
   line-height: 1.6;
+}
+
+/*
+
+Media Queries
+
+*/
+
+@media (max-width: 768px) {
+  .nasa-explan-text {
+    width: 89%;
+  }
+
+  .nasa-explan {
+    margin-bottom: 20%;
+  }
+}
+
+@media (min-width: 320px) {
+  .nasa-explan-text {
+    width: 84%;
+  }
 }
